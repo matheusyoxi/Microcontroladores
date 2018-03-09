@@ -1,0 +1,29 @@
+1- O que são sistemas embarcados?
+
+um sistema embarcado é um sistema que é dedicado ao dispositivo que ele controla, ou seja,
+é um sistema que vai ter um proposito especificado, diferente de sistemas de proposito geral por exemplo.
+
+2- O que são sistemas microprocesssados?
+
+diferentemente  de um sistema embarcado, um sistema microprocessado é um sistema de proposito geral, ou seja, que pode ser configurado 
+para assumir varias funções de a cordo com o que foi configurado, que depende do que o usuario quer.
+
+3- Apresente aplicações de sistemas embarcados: (a) para a indústria automotiva; (b) para eletrodomésticos; (c) para automação industrial.
+
+a) sistemas embarcados na endustria automotiva são muito ultilizados até para redução de custo, exemplos de sistemas embarcados para
+industria automotiva são: modulos de acionamento de farol, acionamento de retrovisores, modulo de controle de injeção, entre outros muitos.
+
+b) para eletrodomésticos: é usado em geladeira, microondas , maquina de lavar
+
+c) para automação industrial: braços roboticos, tornos, estrusoras, impressoras 3d
+
+4- Cite arquiteturas possíveis e as diferenças entre elas.
+
+Harvard architecture e von Neumann architecture, onde a von Neumann architecture é
+mais simples e menos eficiente do que a Harvard architecture
+
+
+5- Por que usamos o MSP430 na disciplina, ao invés de outro microcontrolador?
+
+ O msp430 é um microprocessador de baixo custo e que ultiliza uma arquitetura mais facil de ser usada (von Neumann architecture)
+facilitando assim a didatica para os alunois, alem de todas as caracteristicas que possibilitarão os alunos a desenvolver projetos.
