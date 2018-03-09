@@ -1,0 +1,3 @@
+1- Quais as diferenças entre os barramentos de dados e de endereços?
+A principal diferença entre barramento de dados e barramento de endereço é o que cada um transmite, ou seja, qual informação cada um passa.
+O barramento de dados transmite 
