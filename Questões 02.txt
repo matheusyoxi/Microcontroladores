@@ -1,5 +1,12 @@
-1- Quais as diferenças entre os barramentos de dados e de endereços?
+1. Quais as diferenças entre os barramentos de dados e de endereços?
 
 A principal diferença entre o barramento de dados e o barramento de endereço é o tipo de informação que cada um carrega.
 O barramento de dados é a via pelo qual trafegarão os sinais elétricos entre o processador e a memoria RAM ,ou entre o processador e a porta dos perifericos. Uma das caracteristicas mais fortes do barramento de dados é que ele é bi-direcional, ou seja, os sinais podem fazer trafego de ida e volta entre os componentes. O processador ultiliza o barramento de dados para ler ou gravar informações na memoria RAM.
  O barramento de endereço é ultilizado pelo processador para que o mesmo faça o endereçamento de dados de forma correta na memoria, sua capacidade em bits dependerá do numero de linhas ou vias de endereço do processador que normalmente chega a 32 bits. Uma função típica do Barramento de Endereço é selecionar um registrador num dos dispositivos do sistema que é usado como a fonte ou o destino do dado. 
+
+2. Quais são as diferenças entre as memórias RAM e ROM?
+Diferenças como capacidade, tipo de gravação e funcionamento são as principais entre esses dois tipos de memorias.
+A memória RAM (Random Access Memory), é um tipo de memória volátil que serve para rodar aplicações depois que o computador já está ligado, e é aquela que permite a gravação e a regravação dos dados, no entanto, se o computador for desligado, por exemplo, perde as informações registradas. 
+Já a memória ROM (Read Only Memory) permite a gravação de dados uma única vez, não sendo possível apagar ou editar nenhuma informação, somente acessar a mesma, e está principalmente localizada no chip responsável pela iniciação do sistema onde as informações básicas do computador ficam armazenadas.
+Tendo isso claro, percebemos que elas são usadas de maneiras diferentes, e até em conjunto para 
+
