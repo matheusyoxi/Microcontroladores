@@ -8,5 +8,7 @@ O barramento de dados é a via pelo qual trafegarão os sinais elétricos entre 
 Diferenças como capacidade, tipo de gravação e funcionamento são as principais entre esses dois tipos de memorias.
 A memória RAM (Random Access Memory), é um tipo de memória volátil que serve para rodar aplicações depois que o computador já está ligado, e é aquela que permite a gravação e a regravação dos dados, no entanto, se o computador for desligado, por exemplo, perde as informações registradas. 
 Já a memória ROM (Read Only Memory) permite a gravação de dados uma única vez, não sendo possível apagar ou editar nenhuma informação, somente acessar a mesma, e está principalmente localizada no chip responsável pela iniciação do sistema onde as informações básicas do computador ficam armazenadas.
-Tendo isso claro, percebemos que elas são usadas de maneiras diferentes, e até em conjunto para 
+Tendo isso claro, percebemos que elas são usadas de maneiras diferentes ou até mesmo em conjunto.
+
+3. Para este código, responda: (a) A variável i é armazenada na memória RAM ou ROM? Por quê? (b) O programa compilado a partir deste código é armazenado na memória RAM ou ROM? Por quê?
 
