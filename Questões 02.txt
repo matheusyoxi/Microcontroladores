@@ -12,3 +12,27 @@ Tendo isso claro, percebemos que elas são usadas de maneiras diferentes ou até
 
 3. Para este código, responda: (a) A variável i é armazenada na memória RAM ou ROM? Por quê? (b) O programa compilado a partir deste código é armazenado na memória RAM ou ROM? Por quê?
 
+Tanto a Variável tanto o programa compilado são armazenados na memoria RAM, isso por que a memoria RAM é uma memória volatil, ou seja, que permite que aplicações sejma rodadas nela, diferentemente da memoria ROM que que não é uma memoria volatil, ou seja, que não permite regravação dos dados, só permite uma unica gravação, logo a aplicação não poderia ser rodada nela.
+
+4. Quais são as diferenças, vantagens e desvantagens das arquiteturas Harvard e Von Neumann?
+
+A principal diferença entre as arquiteturas é a complexidade de construção de cada uma, onde a arquitetura Havard é bem mais complexa que a Von Neuman, com isso a arquitetura Von Neuman é mais facil de ser ultilizada, porem possui mais restrições e menos capacidade que a arquitetura Havard.
+A principal vantagem da arquitetura Von Neuman é sua simplicidade, porem sua maior desvantagem é que a mesma é mais lenta que a Havard por não permitir acesso simultaneo as memorias.
+
+5. Considere a variável inteira i, armazenando o valor 0x8051ABCD. Se i é armazenada na memória a partir do endereço 0x0200, como ficam este byte e os seguintes, considerando que a memória é: (a) Little-endian; (b) Big-endian.
+
+
+
+
+
+6. Sabendo que o processador do MSP430 tem registradores de 16 bits, como ele soma duas variáveis de 32 bits?
+
+
+
+
+
+
+
+
+
+
