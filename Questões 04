@@ -8,30 +8,41 @@ j: R8
 A: R9
 Utilize os registradores R11, R12, R13, R14 e R15 para armazenar valores temporários.
 
-Traduza as seguintes linhas em C para a linguagem assembly do MSP430. Utilize somente as seguintes instruções: mov.w, add.w e sub.w.
+1.Traduza as seguintes linhas em C para a linguagem assembly do MSP430. Utilize somente as seguintes instruções: mov.w, add.w e sub.w.
 (a) f = 0;
-     mov.w
+     mov.w #0, R4;
 
 (b) g++;
+     add.w R5,#1;
 
 (c) h--;
+     sub.w R6, #1;
 
 (d) i += 2;
+     add.w R7, #2;
 
 (e) j -= 2;
+     sub.w R8, #2;
 
-Traduza as seguintes linhas em C para a linguagem assembly do MSP430. Utilize somente as seguintes instruções: mov.w, add.w, sub.w, clr.w, dec.w, decd.w, inc.w e incd.w.
+2.Traduza as seguintes linhas em C para a linguagem assembly do MSP430. Utilize somente as seguintes instruções:
+mov.w, add.w, sub.w, clr.w, dec.w, decd.w, inc.w e incd.w.
 (a) f = 0;
+      mov.w #0, R4
 
 (b) g++;
+      inc.w R5
 
 (c) h--;
+      dec.w R6
 
 (d) i += 2;
+      ind.w R7
 
 (e) j -= 2;
+decd R8
 
-Traduza as seguintes linhas em C para a linguagem assembly do MSP430. Utilize somente as seguintes instruções: mov.w, add.w, sub.w, clr.w, dec.w, decd.w, inc.w e incd.w.
+3.Traduza as seguintes linhas em C para a linguagem assembly do MSP430. Utilize somente as seguintes instruções:
+mov.w, add.w, sub.w, clr.w, dec.w, decd.w, inc.w e incd.w.
 (a) f *= 2;
 
 (b) g *= 3;
