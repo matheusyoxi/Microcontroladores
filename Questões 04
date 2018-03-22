@@ -13,16 +13,16 @@ Utilize os registradores R11, R12, R13, R14 e R15 para armazenar valores tempor�
      mov.w #0, R4;
 
 (b) g++;
-     add.w R5,#1;
+     add.w #1,R5;
 
 (c) h--;
-     sub.w R6, #1;
+     sub.w #1,R6;
 
 (d) i += 2;
-     add.w R7, #2;
+     add.w #2,R7;
 
 (e) j -= 2;
-     sub.w R8, #2;
+     sub.w #2,R8;
 
 2.Traduza as seguintes linhas em C para a linguagem assembly do MSP430. Utilize somente as seguintes instruções:
 mov.w, add.w, sub.w, clr.w, dec.w, decd.w, inc.w e incd.w.
@@ -46,16 +46,16 @@ mov.w, add.w, sub.w, clr.w, dec.w, decd.w, inc.w e incd.w.
 (a) f *= 2;
     add.w R4,R4;
 (b) g *= 3;
-    add.w R11,R5;
-    add.w R11,R5;
-    add.w R5,R11;
+    add.w R5,R11;// r11 vale 1r5
+    add.w R5,R11;//r11 vale 2 r5
+    add.w R11,R5;//agora temos g*=3
 (c) h *= 4;
-    add.w R11,R6;
-    add.w R11,R6;
-    add.w R11,R6;
-    add.w R6,R11;
+    add.w R6,R11;//R11 vale R6
+    add.w R11,R11;//R11 vale 2 R6
+    add.w R6,R11;// R11 vale 3 R6
+    add.w R11,R6;// agora temos h*=4
 (d) A[2] = A[1] + A[0];
-    mov.w R9,R11
+    
 (e) A[3] = 2*f - 4*h;
 
 (f) A[3] = 2*(f - 2*h);
